@@ -23,4 +23,12 @@ management:
 
 server:
   port: 8082
+  
+alert-service:
+  messages:
+    AlertSave: Alert Saved Successfully
+    AlertSaveErr: Alert not saved
+    AlertFetch: Alerts Fetch Successfully 
+    AlertFetchErr: Alerts not Fetched
+   
 
